@@ -21,6 +21,6 @@ from app.views import inicio, procesar_datos
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('https://j0t4inc0de.github.io/tuqr/', inicio),
-    path('https://j0t4inc0de.github.io/tuqr/qr/', procesar_datos, name='procesar_datos')
+    path('inicio/', inicio),
+    path('qr/', procesar_datos, name='procesar_datos')
 ]
