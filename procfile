@@ -1,1 +1,1 @@
-web: web: gunicorn primerapp-qr.wsgi
+web: gunicorn primerapp-qr.wsgi
